@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="https://raw.githubusercontent.com/react-boilerplate/react-boilerplate-brand/master/assets/banner-metal-optimized.jpg" alt="react boilerplate banner" align="center" />
 
 <br />
@@ -167,3 +168,7 @@ This project would not be possible without the support of these amazing folks. [
 
 This project is licensed under the MIT license, Copyright (c) 2019 Maximilian
 Stoiber. For more information see `LICENSE.md`.
+=======
+# GEBWebstoreV2
+My seconded attempted at create GEB webstore for use in my project which plans on using smart contract to create a safe webstore.
+>>>>>>> 27fbbaa2605451bd6ebb07f161b18804ffde484b
