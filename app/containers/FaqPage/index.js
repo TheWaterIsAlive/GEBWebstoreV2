@@ -17,15 +17,16 @@ import makeSelectFaqPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 import messages from './messages';
+import Wrapper from '../../components/Wrapper/index';
 
 export function FaqPage() {
   useInjectReducer({ key: 'faqPage', reducer });
   useInjectSaga({ key: 'faqPage', saga });
 
   return (
-    <div>
+    <Wrapper>
       <FormattedMessage {...messages.header} />
-    </div>
+    </Wrapper>
   );
 }
 

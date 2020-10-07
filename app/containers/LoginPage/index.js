@@ -18,19 +18,20 @@ import makeSelectLoginPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 import messages from './messages';
+import Wrapper from '../../components/Wrapper/index';
 
 export function LoginPage() {
   useInjectReducer({ key: 'loginPage', reducer });
   useInjectSaga({ key: 'loginPage', saga });
 
   return (
-    <div>
+    <Wrapper>
       <Helmet>
         <title>LoginPage</title>
         <meta name="description" content="Description of LoginPage" />
       </Helmet>
       <FormattedMessage {...messages.header} />
-    </div>
+    </Wrapper>
   );
 }
 
