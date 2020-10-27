@@ -11,6 +11,10 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
+import CartPage from 'containers/CartPage/Loadable';
+import FaqPage from 'containers/FaqPage/Loadable';
+import LoginPage from 'containers/LoginPage/Loadable';
+import SearchPage from 'containers/SearchPage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
@@ -20,6 +24,10 @@ export default function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
+        <Route exact path="/Cart" component={CartPage} />
+        <Route exact path="/FAQ" component={FaqPage} />
+        <Route exact path="/Login" component={LoginPage} />
+        <Route exact path="/Search" component={SearchPage} />
         <Route component={NotFoundPage} />
       </Switch>
       <GlobalStyle />

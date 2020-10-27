@@ -17,15 +17,16 @@ import makeSelectSearchPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 import messages from './messages';
+import Wrapper from '../../components/Wrapper/index';
 
 export function SearchPage() {
   useInjectReducer({ key: 'searchPage', reducer });
   useInjectSaga({ key: 'searchPage', saga });
 
   return (
-    <div>
+    <Wrapper>
       <FormattedMessage {...messages.header} />
-    </div>
+    </Wrapper>
   );
 }
 

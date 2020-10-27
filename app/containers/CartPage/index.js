@@ -10,9 +10,9 @@ import { connect } from 'react-redux';
 import { FormattedMessage } from 'react-intl';
 import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
-
 import { useInjectSaga } from 'utils/injectSaga';
 import { useInjectReducer } from 'utils/injectReducer';
+import Wrapper from '../../components/Wrapper/index';
 import makeSelectCartPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
@@ -24,6 +24,7 @@ export function CartPage() {
 
   return (
     <div>
+      <Wrapper />
       <FormattedMessage {...messages.header} />
     </div>
   );
