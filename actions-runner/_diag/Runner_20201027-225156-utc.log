@@ -1,0 +1,199 @@
+[2020-10-27 22:51:56Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\User\GEBv2\actions-runner\.credentials'
+[2020-10-27 22:51:56Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-10-27 22:51:56Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.18363.
+[2020-10-27 22:51:56Z INFO Listener] Version: 2.273.5
+[2020-10-27 22:51:56Z INFO Listener] Commit: a79bab4b3c993a205a2d73d2b618299d8a96bd26
+[2020-10-27 22:51:56Z INFO Listener] Culture: en-NZ
+[2020-10-27 22:51:56Z INFO Listener] UI Culture: en-GB
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO Listener] Validating directory permissions for: 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO CommandLineParser] Parse
+[2020-10-27 22:51:56Z INFO CommandLineParser] Parsing 5 args
+[2020-10-27 22:51:56Z INFO CommandLineParser] parsing argument
+[2020-10-27 22:51:56Z INFO CommandLineParser] HasArgs: False
+[2020-10-27 22:51:56Z INFO CommandLineParser] Adding Command: configure
+[2020-10-27 22:51:56Z INFO CommandLineParser] parsing argument
+[2020-10-27 22:51:56Z INFO CommandLineParser] HasArgs: True
+[2020-10-27 22:51:56Z INFO CommandLineParser] arg: url
+[2020-10-27 22:51:56Z INFO CommandLineParser] parsing argument
+[2020-10-27 22:51:56Z INFO CommandLineParser] HasArgs: True
+[2020-10-27 22:51:56Z INFO CommandLineParser] Adding option 'url': 'https://github.com/TheWaterIsAlive/GEBWebstoreV2'
+[2020-10-27 22:51:56Z INFO CommandLineParser] parsing argument
+[2020-10-27 22:51:56Z INFO CommandLineParser] HasArgs: True
+[2020-10-27 22:51:56Z INFO CommandLineParser] arg: token
+[2020-10-27 22:51:56Z INFO CommandLineParser] parsing argument
+[2020-10-27 22:51:56Z INFO CommandLineParser] HasArgs: True
+[2020-10-27 22:51:56Z INFO CommandLineParser] Adding option 'token': '***'
+[2020-10-27 22:51:56Z INFO Listener] Arguments parsed
+[2020-10-27 22:51:56Z INFO Runner] ExecuteCommand
+[2020-10-27 22:51:56Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\User\GEBv2\actions-runner\bin\Runner.Listener.dll
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO ConfigurationStore] binPath: C:\Users\User\GEBv2\actions-runner\bin
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO ConfigurationStore] RootFolder: C:\Users\User\GEBv2\actions-runner
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO HostContext] Well known config file 'Runner': 'C:\Users\User\GEBv2\actions-runner\.runner'
+[2020-10-27 22:51:56Z INFO ConfigurationStore] ConfigFilePath: C:\Users\User\GEBv2\actions-runner\.runner
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\User\GEBv2\actions-runner\.credentials'
+[2020-10-27 22:51:56Z INFO ConfigurationStore] CredFilePath: C:\Users\User\GEBv2\actions-runner\.credentials
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\User\GEBv2\actions-runner\.credentials_migrated'
+[2020-10-27 22:51:56Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\User\GEBv2\actions-runner\.credentials_migrated
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:56Z INFO HostContext] Well known config file 'Service': 'C:\Users\User\GEBv2\actions-runner\.service'
+[2020-10-27 22:51:56Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\User\GEBv2\actions-runner\.service
+[2020-10-27 22:51:56Z INFO CommandSettings] Flag 'help': 'False'
+[2020-10-27 22:51:56Z INFO CommandSettings] Flag 'version': 'False'
+[2020-10-27 22:51:56Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-10-27 22:51:56Z INFO CommandSettings] Command 'configure': 'True'
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE: |                       
+[2020-10-27 22:51:56Z INFO Terminal] WRITE: Self-hosted runner registration
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE:                         |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: |                                                                              |
+[2020-10-27 22:51:56Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2020-10-27 22:51:56Z INFO ConfigurationManager] ConfigureAsync
+[2020-10-27 22:51:56Z INFO ConfigurationStore] IsConfigured()
+[2020-10-27 22:51:56Z INFO ConfigurationStore] IsConfigured: False
+[2020-10-27 22:51:56Z INFO ConfigurationManager] Is configured: False
+[2020-10-27 22:51:56Z INFO CommandSettings] Arg 'url': 'https://github.com/TheWaterIsAlive/GEBWebstoreV2'
+[2020-10-27 22:51:56Z INFO CommandSettings] Remove url from Arg dictionary.
+[2020-10-27 22:51:56Z INFO CommandSettings] Arg 'token': '***'
+[2020-10-27 22:51:56Z INFO CommandSettings] Remove token from Arg dictionary.
+[2020-10-27 22:51:57Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2020-10-27 22:51:57Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2020-10-27 22:51:57Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-10-27 22:51:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-27 22:51:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-10-27 22:51:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-27 22:51:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-10-27 22:51:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-27 22:51:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-27 22:51:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-27 22:51:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-27 22:51:59Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:51:59Z INFO ConfigurationManager] Test Connection complete.
+[2020-10-27 22:51:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-27 22:51:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-27 22:51:59Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams'
+[2020-10-27 22:51:59Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2020-10-27 22:51:59Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-27 22:52:00Z INFO ConfigurationManager] Found a self-hosted runner group with id {1} and name {2} 1, Default
+[2020-10-27 22:52:00Z INFO CommandSettings] Arg 'name': ''
+[2020-10-27 22:52:00Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:52:00Z INFO PromptManager] ReadValue
+[2020-10-27 22:52:00Z INFO Terminal] WRITE: Enter the name of runner: 
+[2020-10-27 22:52:00Z INFO Terminal] WRITE: [press Enter for DESKTOP-BA586R9] 
+[2020-10-27 22:52:00Z INFO Terminal] READ LINE
+[2020-10-27 22:52:17Z INFO Terminal] Read value: './run.cmd'
+[2020-10-27 22:52:17Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:52:17Z INFO CommandSettings] Arg 'labels': ''
+[2020-10-27 22:52:17Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:52:17Z INFO PromptManager] ReadValue
+[2020-10-27 22:52:17Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2020-10-27 22:52:17Z INFO Terminal] WRITE: [press Enter to skip] 
+[2020-10-27 22:52:17Z INFO Terminal] READ LINE
+[2020-10-27 22:52:25Z INFO Terminal] Read value: ''
+[2020-10-27 22:52:25Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:52:25Z ERR  GitHubActionsService] POST request to https://pipelines.actions.githubusercontent.com/P514vpk5dBeSmTD4gjMvkL6N0lM54bjRbLQ1pUZ0TFdJ3aCim5/_apis/distributedtask/pools/1/agents failed. HTTP Status: BadRequest, AFD Ref: Ref A: 9E6722DD87DF43A5A71ED8353E034132 Ref B: AKL30EDGE0119 Ref C: 2020-10-27T22:52:25Z
+[2020-10-27 22:52:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:52:25Z ERR  Terminal] WRITE ERROR (exception):
+[2020-10-27 22:52:25Z ERR  Terminal] GitHub.Services.WebApi.VssServiceResponseException: The runner name './run.cmd' is not valid. A valid runner name is less than 64 characters in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agent.Name')
+ ---> System.ArgumentException: The runner name './run.cmd' is not valid. A valid runner name is less than 64 characters in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agent.Name')
+   --- End of inner exception stack trace ---
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+[2020-10-27 22:52:25Z ERR  Terminal] #####################################################
+[2020-10-27 22:52:25Z ERR  Terminal] System.ArgumentException: The runner name './run.cmd' is not valid. A valid runner name is less than 64 characters in length and does not include '"', '/', ':', '<', '>', '\', '|', '*' and '?'. (Parameter 'agent.Name')
+[2020-10-27 22:52:25Z ERR  Terminal] WRITE ERROR: Failed to add the runner. Try again or ctrl-c to quit
+[2020-10-27 22:52:25Z INFO CommandSettings] Arg 'name': ''
+[2020-10-27 22:52:25Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:52:25Z INFO PromptManager] ReadValue
+[2020-10-27 22:52:25Z INFO Terminal] WRITE: Enter the name of runner: 
+[2020-10-27 22:52:25Z INFO Terminal] WRITE: [press Enter for DESKTOP-BA586R9] 
+[2020-10-27 22:52:25Z INFO Terminal] READ LINE
+[2020-10-27 22:54:41Z INFO Terminal] Read value: 'reactapp'
+[2020-10-27 22:54:41Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:54:41Z INFO CommandSettings] Arg 'labels': ''
+[2020-10-27 22:54:41Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:54:41Z INFO PromptManager] ReadValue
+[2020-10-27 22:54:41Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Windows', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2020-10-27 22:54:41Z INFO Terminal] WRITE: [press Enter to skip] 
+[2020-10-27 22:54:41Z INFO Terminal] READ LINE
+[2020-10-27 22:54:41Z INFO Terminal] Read value: ''
+[2020-10-27 22:54:41Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:54:43Z INFO ConfigurationStore] Saving OAuth credential @ C:\Users\User\GEBv2\actions-runner\.credentials
+[2020-10-27 22:54:43Z INFO ConfigurationStore] Credentials Saved.
+[2020-10-27 22:54:43Z INFO ConfigurationStore] HasCredentials()
+[2020-10-27 22:54:43Z INFO ConfigurationStore] stored True
+[2020-10-27 22:54:43Z INFO CredentialManager] GetCredentialProvider
+[2020-10-27 22:54:43Z INFO CredentialManager] Creating type OAuth
+[2020-10-27 22:54:43Z INFO CredentialManager] Creating credential type: OAuth
+[2020-10-27 22:54:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-27 22:54:43Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-10-27 22:54:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-27 22:54:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-10-27 22:54:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-27 22:54:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-10-27 22:54:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-27 22:54:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-27 22:54:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-27 22:54:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-27 22:54:44Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 68385eea-ea44-4534-b645-3cbeef62bdfd
+ActivityId: b4b31ed1-72ec-4f98-b670-1d302b75a35d
+X-TFS-Session: 7e0555be-d1f1-4f24-b4de-6049a17e8fa2
+X-VSS-E2EID: 17dc2cd8-8445-48c7-a670-fc8f2a2f97cc
+X-VSS-SenderDeploymentId: 13a19993-c6bc-326c-afb4-32c5519f46f0
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: E0AFBB6E431F42678E6C6F859E5B456E Ref B: AKL30EDGE0114 Ref C: 2020-10-27T22:54:44Z
+Date: Tue, 27 Oct 2020 22:54:43 GMT
+
+[2020-10-27 22:54:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-27 22:54:44Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-27 22:54:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-10-27 22:54:46Z INFO CommandSettings] Arg 'work': ''
+[2020-10-27 22:54:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:54:46Z INFO PromptManager] ReadValue
+[2020-10-27 22:54:46Z INFO Terminal] WRITE: Enter name of work folder: 
+[2020-10-27 22:54:46Z INFO Terminal] WRITE: [press Enter for _work] 
+[2020-10-27 22:54:46Z INFO Terminal] READ LINE
+[2020-10-27 22:54:52Z INFO Terminal] Read value: 'reactapp'
+[2020-10-27 22:54:52Z INFO ConfigurationStore] Saving runner settings.
+[2020-10-27 22:54:52Z INFO ConfigurationStore] Settings Saved.
+[2020-10-27 22:54:52Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:54:52Z INFO Terminal] WRITE LINE: 
+[2020-10-27 22:54:52Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2020-10-27 22:54:52Z INFO CommandSettings] Flag 'unattended': 'False'
+[2020-10-27 22:54:52Z INFO PromptManager] ReadValue
+[2020-10-27 22:54:52Z INFO Terminal] WRITE: Would you like to run the runner as service? (Y/N) 
+[2020-10-27 22:54:52Z INFO Terminal] WRITE: [press Enter for N] 
+[2020-10-27 22:54:52Z INFO Terminal] READ LINE
+[2020-10-27 22:55:21Z INFO Terminal] Read value: ''
+[2020-10-27 22:55:21Z INFO PromptManager] Falling back to the default: 'N'
+[2020-10-27 22:55:21Z INFO Listener] Runner execution has finished with return code 0

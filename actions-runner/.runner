@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "reactapp",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/P514vpk5dBeSmTD4gjMvkL6N0lM54bjRbLQ1pUZ0TFdJ3aCim5",
+  "gitHubUrl": "https://github.com/TheWaterIsAlive/GEBWebstoreV2",
+  "workFolder": "reactapp"
+}
