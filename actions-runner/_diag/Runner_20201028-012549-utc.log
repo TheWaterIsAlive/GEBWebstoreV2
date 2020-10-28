@@ -121,3 +121,7 @@ Date: Wed, 28 Oct 2020 01:25:51 GMT
 
 [2020-10-28 01:25:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
 [2020-10-28 01:25:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-28 01:25:53Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2020-10-28 01:25:54Z INFO MessageListener] Session created.
+[2020-10-28 01:25:54Z INFO Terminal] WRITE LINE: 2020-10-28 01:25:54Z: Listening for Jobs
+[2020-10-28 01:25:54Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
