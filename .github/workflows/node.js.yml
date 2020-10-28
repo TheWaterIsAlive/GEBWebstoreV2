@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: DESKTOP-BA586R9
+    runs-on: self-hosted
 
     strategy:
       matrix:
