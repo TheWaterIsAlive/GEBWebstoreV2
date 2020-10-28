@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: local-host
+    runs-on: DESKTOP-BA586R9
 
     strategy:
       matrix:
