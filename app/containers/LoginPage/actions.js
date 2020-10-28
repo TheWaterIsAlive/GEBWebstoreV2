@@ -13,15 +13,15 @@ import { LOGIN, LOGINTYPE } from './constants';
 export function loginType() {
   return {
     type: LOGINTYPE,
-    string: username,
-    string: password,
+    username: '',
+    password: '',
   };
 }
 export function login() {
   return {
     type: LOGIN,
-    string: username,
-    string: password,
+    username: '',
+    password: '',
   };
 }
 

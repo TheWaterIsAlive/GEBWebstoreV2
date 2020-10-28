@@ -12,21 +12,21 @@ export const initialState = {
 };
 
 /* eslint-disable default-case, no-param-reassign */
-const loginPageReducer = (state = initialState, action) =>
+export const loginPageReducer = (state = initialState, action) => {
   produce(state, (/* draft */) => {
     switch (action.type) {
       case LOGIN:
         break;
-
       case LOGINTYPE:
-        (state.username = action.username), (state.password = action.password);
+        function loginSetState() {
+          (state.username = action.username),
+            (state.password = action.password);
+        }
     }
-
     const mapStateToProps = state => {
       return {
         formbox: loginPageReducer(state.formbox),
       };
     };
   });
-
-export default loginPageReducer;
+};
