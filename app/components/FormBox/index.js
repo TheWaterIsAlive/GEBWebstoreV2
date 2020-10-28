@@ -4,14 +4,12 @@
  *
  */
 
-import propTypes from 'prop-types';
+// import  from 'prop-types';
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 
-const FormBox = ({ onType, completed, text }) => (
-  <input onType={onType}>{text}</input>
-);
+const FormBox = ({ onType, text }) => <input onType={onType} />;
 
 FormBox.propTypes = {
   onType: PropTypes.func.isRequired,

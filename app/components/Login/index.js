@@ -6,7 +6,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import FormBox from '../../components/FormBox';
+import FormBox from '../FormBox';
 
 // import styled from 'styled-components';
 
