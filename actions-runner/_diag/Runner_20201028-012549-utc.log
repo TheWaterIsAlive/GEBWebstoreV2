@@ -1,0 +1,123 @@
+[2020-10-28 01:25:49Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\User\GEBv2\actions-runner\.credentials'
+[2020-10-28 01:25:49Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2020-10-28 01:25:49Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.18363.
+[2020-10-28 01:25:49Z INFO Listener] Version: 2.273.5
+[2020-10-28 01:25:49Z INFO Listener] Commit: a79bab4b3c993a205a2d73d2b618299d8a96bd26
+[2020-10-28 01:25:49Z INFO Listener] Culture: en-NZ
+[2020-10-28 01:25:49Z INFO Listener] UI Culture: en-GB
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO Listener] Validating directory permissions for: 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO CommandLineParser] Parse
+[2020-10-28 01:25:49Z INFO CommandLineParser] Parsing 1 args
+[2020-10-28 01:25:49Z INFO CommandLineParser] parsing argument
+[2020-10-28 01:25:49Z INFO CommandLineParser] HasArgs: False
+[2020-10-28 01:25:49Z INFO CommandLineParser] Adding Command: run
+[2020-10-28 01:25:49Z INFO Listener] Arguments parsed
+[2020-10-28 01:25:49Z INFO Runner] ExecuteCommand
+[2020-10-28 01:25:49Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\User\GEBv2\actions-runner\bin\Runner.Listener.dll
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] binPath: C:\Users\User\GEBv2\actions-runner\bin
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] RootFolder: C:\Users\User\GEBv2\actions-runner
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO HostContext] Well known config file 'Runner': 'C:\Users\User\GEBv2\actions-runner\.runner'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] ConfigFilePath: C:\Users\User\GEBv2\actions-runner\.runner
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\User\GEBv2\actions-runner\.credentials'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] CredFilePath: C:\Users\User\GEBv2\actions-runner\.credentials
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\User\GEBv2\actions-runner\.credentials_migrated'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\User\GEBv2\actions-runner\.credentials_migrated
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO HostContext] Well known config file 'Service': 'C:\Users\User\GEBv2\actions-runner\.service'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\User\GEBv2\actions-runner\.service
+[2020-10-28 01:25:49Z INFO CommandSettings] Flag 'help': 'False'
+[2020-10-28 01:25:49Z INFO CommandSettings] Flag 'version': 'False'
+[2020-10-28 01:25:49Z INFO CommandSettings] Flag 'commit': 'False'
+[2020-10-28 01:25:49Z INFO CommandSettings] Command 'configure': 'False'
+[2020-10-28 01:25:49Z INFO CommandSettings] Command 'remove': 'False'
+[2020-10-28 01:25:49Z INFO CommandSettings] Command 'warmup': 'False'
+[2020-10-28 01:25:49Z INFO ConfigurationManager] LoadSettings
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsConfigured()
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsConfigured: True
+[2020-10-28 01:25:49Z INFO ConfigurationManager] Is configured: True
+[2020-10-28 01:25:49Z INFO ConfigurationStore] Read setting file: 313 chars
+[2020-10-28 01:25:49Z INFO ConfigurationManager] Settings Loaded
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsServiceConfigured()
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsServiceConfigured: False
+[2020-10-28 01:25:49Z INFO CommandSettings] Command 'run': 'True'
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsConfigured()
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsConfigured: True
+[2020-10-28 01:25:49Z INFO ConfigurationManager] Is configured: True
+[2020-10-28 01:25:49Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2020-10-28 01:25:49Z INFO Runner] Set runner startup type - Manual
+[2020-10-28 01:25:49Z INFO CommandSettings] Flag 'once': 'False'
+[2020-10-28 01:25:49Z INFO Runner] RunAsync
+[2020-10-28 01:25:49Z INFO ConfigurationManager] LoadSettings
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsConfigured()
+[2020-10-28 01:25:49Z INFO ConfigurationStore] IsConfigured: True
+[2020-10-28 01:25:49Z INFO ConfigurationManager] Is configured: True
+[2020-10-28 01:25:49Z INFO ConfigurationManager] Settings Loaded
+[2020-10-28 01:25:49Z INFO MessageListener] {
+  "AgentId": 3,
+  "AgentName": "DESKTOP-BA586R9",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/P514vpk5dBeSmTD4gjMvkL6N0lM54bjRbLQ1pUZ0TFdJ3aCim5",
+  "GitHubUrl": "https://github.com/TheWaterIsAlive/GEBWebstoreV2",
+  "WorkFolder": "./run.cmd"
+}
+[2020-10-28 01:25:49Z INFO MessageListener] Loading Credentials
+[2020-10-28 01:25:49Z INFO ConfigurationStore] HasCredentials()
+[2020-10-28 01:25:49Z INFO ConfigurationStore] stored True
+[2020-10-28 01:25:49Z INFO CredentialManager] GetCredentialProvider
+[2020-10-28 01:25:49Z INFO CredentialManager] Creating type OAuth
+[2020-10-28 01:25:49Z INFO CredentialManager] Creating credential type: OAuth
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\User\GEBv2\actions-runner\bin'
+[2020-10-28 01:25:49Z INFO HostContext] Well known directory 'Root': 'C:\Users\User\GEBv2\actions-runner'
+[2020-10-28 01:25:49Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams'
+[2020-10-28 01:25:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-28 01:25:49Z INFO MessageListener] Attempt to create session.
+[2020-10-28 01:25:49Z INFO MessageListener] Connecting to the Runner Server...
+[2020-10-28 01:25:49Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2020-10-28 01:25:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-28 01:25:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-10-28 01:25:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-28 01:25:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2020-10-28 01:25:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-28 01:25:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2020-10-28 01:25:52Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2020-10-28 01:25:52Z INFO MessageListener] VssConnection created
+[2020-10-28 01:25:52Z INFO Terminal] WRITE LINE: 
+[2020-10-28 01:25:52Z INFO Terminal] WRITE LINE: 
+[2020-10-28 01:25:52Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 68385eea-ea44-4534-b645-3cbeef62bdfd
+ActivityId: b4d275d8-72ec-4f98-b670-1d302b75a35d
+X-TFS-Session: cadb3ddd-e1ed-4356-abf0-3bc934e8e7ec
+X-VSS-E2EID: a8a4d6e8-1638-46c7-be19-690926ccbd77
+X-VSS-SenderDeploymentId: 13a19993-c6bc-326c-afb4-32c5519f46f0
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: ADC7E40DD7E3424D9BC5F39A583C4723 Ref B: AKL30EDGE0113 Ref C: 2020-10-28T01:25:52Z
+Date: Wed, 28 Oct 2020 01:25:51 GMT
+
+[2020-10-28 01:25:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
+[2020-10-28 01:25:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\User\GEBv2\actions-runner\.credentials_rsaparams
