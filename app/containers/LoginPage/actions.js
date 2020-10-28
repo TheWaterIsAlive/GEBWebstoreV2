@@ -4,7 +4,7 @@
  *
  */
 
-import { LOGIN, LOGINTYPE } from './constants';
+import { LOGIN, LOGINTYPE, REMEMBERLOGIN } from './constants';
 
 // export function defaultAction() {
 //   return {
@@ -22,6 +22,11 @@ export function login() {
     type: LOGIN,
     username: '',
     password: '',
+  };
+}
+export function remembeLogin() {
+  return {
+    type: REMEMBERLOGIN,
   };
 }
 

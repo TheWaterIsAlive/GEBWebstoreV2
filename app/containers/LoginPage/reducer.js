@@ -4,7 +4,9 @@
  *
  */
 import produce from 'immer';
-import { LOGIN, LOGINTYPE } from './constants';
+import { connect } from 'react-redux';
+import FormBox from '../../components/FormBox';
+import { LOGIN, LOGINTYPE, REMEMBERLOGIN } from './constants';
 
 export const initialState = {
   username: '',
@@ -12,21 +14,30 @@ export const initialState = {
 };
 
 /* eslint-disable default-case, no-param-reassign */
-export const loginPageReducer = (state = initialState, action) => {
-  produce(state, (/* draft */) => {
+const loginPageReducer = (state = initialState, action) => {
+  produce(state, () => {
     switch (action.type) {
       case LOGIN:
         break;
       case LOGINTYPE:
-        function loginSetState() {
-          (state.username = action.username),
-            (state.password = action.password);
-        }
+        break;
     }
-    const mapStateToProps = state => {
+
+    function mapStateToProps() {
       return {
         formbox: loginPageReducer(state.formbox),
       };
-    };
+    }
+    const mapDispatchToProps = dispatch => ({
+      onFormType: id => {
+        dispatch(REMEMBERLOGIN(id));
+      },
+    });
+    const finalLogin = connect(
+      mapStateToProps,
+      mapDispatchToProps,
+    )(FormBox);
   });
 };
+
+export default loginPageReducer;
