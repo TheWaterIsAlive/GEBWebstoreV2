@@ -6,18 +6,29 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import FormBox from '../../components/FormBox';
 
-function Login() {
-  return (
-    <form>
-      <input type="text" id="loginName" />
-      <input type="text" id="password" />
-      <input type="submit" id="submit" />
-    </form>
-  );
-}
+// import styled from 'styled-components';
 
-Login.propTypes = {};
+const Login = ({ formbox, onFormType }) => (
+  <form>
+    <FormBox
+      key={formbox.id}
+      {...formbox}
+      onType={() => onFormType(formbox.id)}
+    />
+    <input type="submit" id="submit" />
+  </form>
+);
+
+Login.propTypes = {
+  formbox: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+    }).isRequired,
+  ).isRequired,
+  onFormType: PropTypes.func.isRequired,
+};
 
 export default Login;
