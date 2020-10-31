@@ -4,10 +4,9 @@
  *
  */
 
-import React, { memo } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import { createStructuredSelector } from 'reselect';
 import { compose } from 'redux';
@@ -18,20 +17,15 @@ import makeSelectLoginPage from './selectors';
 import reducer from './reducer';
 import saga from './saga';
 import messages from './messages';
-import Wrapper from '../../components/Wrapper/index';
 
 export function LoginPage() {
   useInjectReducer({ key: 'loginPage', reducer });
   useInjectSaga({ key: 'loginPage', saga });
 
   return (
-    <Wrapper>
-      <Helmet>
-        <title>LoginPage</title>
-        <meta name="description" content="Description of LoginPage" />
-      </Helmet>
+    <div>
       <FormattedMessage {...messages.header} />
-    </Wrapper>
+    </div>
   );
 }
 
@@ -54,7 +48,4 @@ const withConnect = connect(
   mapDispatchToProps,
 );
 
-export default compose(
-  withConnect,
-  memo,
-)(LoginPage);
+export default compose(withConnect)(LoginPage);
