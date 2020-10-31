@@ -4,30 +4,10 @@
  *
  */
 
-import { LOGIN, LOGINTYPE, REMEMBERLOGIN } from './constants';
+import { DEFAULT_ACTION } from './constants';
 
-// export function defaultAction() {
-//   return {
-//     type: DEFAULT_ACTION,
-//   };
-export function loginType() {
+export function defaultAction() {
   return {
-    type: LOGINTYPE,
-    username: '',
-    password: '',
+    type: DEFAULT_ACTION,
   };
 }
-export function login() {
-  return {
-    type: LOGIN,
-    username: '',
-    password: '',
-  };
-}
-export function remembeLogin() {
-  return {
-    type: REMEMBERLOGIN,
-  };
-}
-
-// }
