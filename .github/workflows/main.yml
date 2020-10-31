@@ -25,7 +25,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server:  ftp://ftp.gebooks.site:21/public_html/build
+        ftp-server:  ftp://ftp.gebooks.site
         ftp-username: allan@gebooks.site
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --insecure  
