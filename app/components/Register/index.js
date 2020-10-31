@@ -1,6 +1,6 @@
 /**
  *
- * Login
+ * Register
  *
  */
 
@@ -8,21 +8,22 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 
-// import { FormattedMessage } from 'react-intl';
-// import messages from './messages';
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
 
-function Login() {
+function Register() {
   return (
     <div>
       <form>
         <input />
         <input />
-        <button type="submit">Submit</button>
+        <input />
+        <button type="submit" />
       </form>
     </div>
   );
 }
 
-Login.propTypes = {};
+Register.propTypes = {};
 
-export default Login;
+export default Register;
