@@ -1,6 +1,6 @@
 /**
  *
- * Tests for Login
+ * Tests for Register
  *
  * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
  *
@@ -11,15 +11,15 @@ import { render } from 'react-testing-library';
 import { IntlProvider } from 'react-intl';
 // import 'jest-dom/extend-expect'; // add some helpful assertions
 
-import Login from '../index';
+import Register from '../index';
 import { DEFAULT_LOCALE } from '../../../i18n';
 
-describe('<Login />', () => {
+describe('<Register />', () => {
   it('Expect to not log errors in console', () => {
     const spy = jest.spyOn(global.console, 'error');
     render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <Login />
+        <Register />
       </IntlProvider>,
     );
     expect(spy).not.toHaveBeenCalled();
@@ -39,7 +39,7 @@ describe('<Login />', () => {
       container: { firstChild },
     } = render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <Login />
+        <Register />
       </IntlProvider>,
     );
     expect(firstChild).toMatchSnapshot();
